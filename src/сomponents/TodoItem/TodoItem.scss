@@ -1,0 +1,77 @@
+.TodoItem {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(100% / 12 * 6 - 20px);
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 14px;
+  min-height: 150px;
+}
+
+.TodoItemButton {
+  cursor: pointer;
+  padding: 0;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  width: 24px;
+  height: 24px;
+}
+
+.TodoItemAction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TodoItemGroupAction {
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 25px;
+}
+
+.TodoItemGroupAction .TodoItemButton {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.TodoItemContent {
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--textColor);
+}
+
+.TodoItem.Completed {
+  background-color: var(--accentColor);
+  color: var(--lightColor);
+}
+
+.TodoItem.Completed .TodoItemContent {
+  color: var(--lightColor);
+  text-decoration: line-through;
+}
+
+.TodoItem.Edit {
+  background: var(--lightSecondaryColor);
+  box-shadow: var(--shadow);
+}
+
+.TodoItemEditArea {
+  background: var(--lightColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 4px;
+  resize: none;
+  width: 100%;
+  height: 77px;
+  outline-color: var(--accentColor);
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--textColor);
+}
+

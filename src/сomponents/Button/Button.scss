@@ -1,0 +1,23 @@
+.Button {
+  background-color: var(--accentColor);
+  color: var(--lightColor);
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.Button:hover {
+  background-color: var(--lightColor);
+  color: var(--accentColor);
+  border-color: var(--accentColor);
+}

@@ -1,0 +1,19 @@
+.Head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 42px;
+}
+
+.HeadTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color:var(--textColor);
+}
+
+.HeadIcon {
+  margin-left: 16px;
+}

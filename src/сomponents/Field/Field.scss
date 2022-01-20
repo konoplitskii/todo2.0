@@ -1,0 +1,33 @@
+.Field {
+  border: 1px solid var(--borderColor);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 14px;
+  width: 100%;
+  outline: none;
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.Field:focus {
+  border-color: var(--accentColor);
+}
+
+.Field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--borderColor);
+}
+
+.Field::-moz-placeholder { /* Firefox 19+ */
+  color: var(--borderColor);
+}
+
+.Field:-ms-input-placeholder { /* IE 10+ */
+  color: var(--borderColor);
+}
+
+.Field:-moz-placeholder { /* Firefox 18- */
+  color: var(--borderColor);
+}

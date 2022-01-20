@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from "./сomponents/Container/Container";
+import Date from "./сomponents/Date/Date";
+import Head from "./сomponents/Head/Head";
+import Filter from "./сomponents/Filter/Filter";
+import ActionForm from "./сomponents/ActionForm/ActionForm";
+import TodoList from "./сomponents/TodoList/TodoList";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Date/>
+        <Head/>
+          <Filter/>
+          <ActionForm/>
+          <TodoList/>
+      </Container>
     </div>
   );
 }

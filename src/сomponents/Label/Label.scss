@@ -1,0 +1,47 @@
+.Label {
+  min-width: 70px;
+  padding: 3px 3px 3px 8px;
+  background-color: var(--lightSecondaryColor);
+  display: flex;
+  align-items: center;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  min-height: 18px;
+  color: var(--lightColor);
+  border-radius: 11px;
+  overflow: hidden;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.Label.Active {
+  background-color: var(--successColor);
+}
+
+.Label.Completed {
+  background-color: var(--accentColor);
+}
+
+.LabelName {
+
+}
+
+.LabelQuantity {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--textColor);
+  border-radius: 100%;
+  margin-left: 10px;
+  background-color: var(--lightColor);
+  padding: 3px;
+  flex-shrink: 0;
+  width: 13px;
+  height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
